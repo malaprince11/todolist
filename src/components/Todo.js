@@ -30,7 +30,7 @@ class todo extends Component {
      renderTodo(){
          return this.state.items.map((item) => {
              return (
-                 <div key={item}>
+                 <div  className="list"key={item}>
                  {item} <button onClick={this.deleteto.bind(this)}>supp</button>
 
                  </div>
